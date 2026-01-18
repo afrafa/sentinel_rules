@@ -14,7 +14,7 @@
             "kind": "Scheduled",
             "apiVersion": "2023-12-01-preview",
             "properties": {
-                "displayName": "Regra de Teste2",
+                "displayName": "Regra de Teste2 3",
                 "description": "Regra de Teste Só vai2",
                 "severity": "Medium",
                 "enabled": true,
