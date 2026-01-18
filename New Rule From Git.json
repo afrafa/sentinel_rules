@@ -15,7 +15,7 @@
             "apiVersion": "2023-12-01-preview",
             "properties": {
                 "displayName": "Regra de Teste From GitHub",
-                "description": "Esta é uma cópia da regra de teste original, adaptada para versionamento via GitHub.",
+                "description": "Esta é uma cópia da regra de teste original, adaptada para versionamento via GitHub. Comentário a mais",
                 "severity": "Medium",
                 "enabled": true,
                 "query": "datatable(Id:int, Nome:string, Status:string)\r\n[\r\n    1, \"Alice\", \"Ativo\",\r\n    2, \"Bob\", \"Inativo\",\r\n    3, \"Carlos\", \"Ativo\"\r\n]",
