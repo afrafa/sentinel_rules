@@ -9,7 +9,7 @@
     "resources": [
         {
             "id": "[concat(resourceId('Microsoft.OperationalInsights/workspaces/providers', parameters('workspace'), 'Microsoft.SecurityInsights'),'/alertRules/046bbfb8-ef1b-4e64-8182-b826c2ac674b')]",
-            "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/046bbfb8-ef1b-4e64-8182-b826c2ac674b')]",
+            "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/046bbfb8-ef1b-4e64-8182-b826c2ac674c')]",
             "type": "Microsoft.OperationalInsights/workspaces/providers/alertRules",
             "kind": "Scheduled",
             "apiVersion": "2023-12-01-preview",
@@ -18,7 +18,7 @@
                 "description": "Regra de Teste Só vai",
                 "severity": "Medium",
                 "enabled": true,
-                "query": "datatable(Id:int, Nome:string, Status:string)\r\n[\r\n    1, \"Alice\", \"Ativo\",\r\n    2, \"Bob\", \"Inativo\",\r\n    3, \"Carlos\", \"Ativo\"\r\n]",
+                "query": "datatable(Id:int, Nome:string, Status:string)\r\n[\r\n    1, \"Alice\", \"Ativo\",\r\n    2, \"Bob\", \"Inativo\",\r\n    3, \"Carlos\", \"Ativo\"\r\n]\r\n//Fooo",
                 "queryFrequency": "PT15M",
                 "queryPeriod": "PT1H",
                 "triggerOperator": "GreaterThan",
